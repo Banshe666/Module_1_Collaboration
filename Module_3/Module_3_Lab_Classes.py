@@ -87,7 +87,6 @@ def userCar():
     new_car = Automobile(vehicle_type, year, make, model, doors, roof) # Create an instance of Automobile with the provided details
 
     # Display the vehicle information
-    print("\nVehicle Information:")
     print(f"Vehicle Type: {new_car.vehicle_type}")
     print(f"Year: {new_car.year}")
     print(f"Make: {new_car.make}")
